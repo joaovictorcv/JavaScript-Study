@@ -60,4 +60,6 @@ if (firstName == 'João Victor'){
     console.log("No BRO =*(")
 }
 
+//DOM
 
+document.getElementById('exemplo').innerHTML = "Darko <button>Exemple</button>"; 
