@@ -20,6 +20,12 @@ var lastName = 'Cavalcante';
 var nameComplet = name + " " + lastName; //Contenou as aspas vazia como o espaço entre o nome e sobrenome//
 alert (nameComplet);
 
+var nome = "João";
+console.log ( window.nome );
+// let nome = "João"; Só é definido em um escopo especifico//
+// const nome = "João";  Variavel de valor constante//
+
+
 //Condicionais//
 
 var hora = 12;
