@@ -17,8 +17,8 @@ var result = x + y;
 var firstName = "João Victor";
 var lastName = 'Cavalcante';
 
-var nameComplet = name + " " + lastName; //Contenou as aspas vazia como o espaço entre o nome e sobrenome//
-alert (nameComplet);
+var nameComplet = firstName + " " + lastName; //Contenou as aspas vazia como o espaço entre o nome e sobrenome//
+// alert (nameComplet);
 
 var nome = "João";
 console.log ( window.nome );
@@ -62,4 +62,13 @@ if (firstName == 'João Victor'){
 
 //DOM
 
-document.getElementById('exemplo').innerHTML = "Darko <button>Exemple</button>"; 
+//getElementById > pegando elemento pelo ID
+document.getElementById('exemple').innerHTML = "Darko"; 
+//getElementByClassName > pegando elemento pela Class
+document.getElementsByClassName('exempleClass')[0] .innerHTML = "Frango e Patinho";
+document.getElementsByClassName('exempleClass')[1] .innerHTML = "Leg day my friend";
+
+
+// getElementsByTagName > Pega pela TAG document.getElementsByTagName('button'). innerHTML = "TA";
+
+// getElementsByName > Encontra pelo naome document.getElementsByName('email')
