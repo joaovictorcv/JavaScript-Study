@@ -93,4 +93,14 @@ function blue(){
     document.querySelector('#exemple').classList.remove('red');
     document.querySelector('#exemple').classList.remove('green');
     document.querySelector('#exemple').classList.add('blue');
+} 
+
+function trocar(){
+     if(document.querySelector('button').classList.contains('preto')){ //a tag contains verifica se a tag já possui uma classe selecionada na função//
+        document.querySelector('button').classList.remove('preto');
+        document.querySelector('button').classList.add('verde');
+    } else{
+        document.querySelector('button').classList.remove('verde');
+        document.querySelector('button').classList.add('preto');
+    }
 }
