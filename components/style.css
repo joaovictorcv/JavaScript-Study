@@ -1,3 +1,33 @@
-body{
-    background-color: bisque;
+#exemple{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.green{
+    font-size: 40px;
+    background-color: #0f0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red{
+    font-size: 40px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue{
+    font-size: 40px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

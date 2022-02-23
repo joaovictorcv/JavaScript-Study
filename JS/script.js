@@ -63,12 +63,34 @@ if (firstName == 'João Victor'){
 //DOM
 
 //getElementById > pegando elemento pelo ID
-document.getElementById('exemple').innerHTML = "Darko"; 
+// document.getElementById('exemple').innerHTML = "Darko"; 
 //getElementByClassName > pegando elemento pela Class
-document.getElementsByClassName('exempleClass')[0] .innerHTML = "Frango e Patinho";
-document.getElementsByClassName('exempleClass')[1] .innerHTML = "Leg day my friend";
+// document.getElementsByClassName('exempleClass')[0] .innerHTML = "Frango e Patinho";
+// document.getElementsByClassName('exempleClass')[1] .innerHTML = "Leg day my friend";
 
 
 // getElementsByTagName > Pega pela TAG document.getElementsByTagName('button'). innerHTML = "TA";
 
 // getElementsByName > Encontra pelo naome document.getElementsByName('email')
+// document.querySelector('.exempleClass') > Consigo selecionar por ID, Class, pelo nome da tag, sempre selecinado o primeiro elemento, para selecionar todos document.querySelectolAll.
+
+
+//Manipulando Class do elemento 1
+
+function green(){
+    document.querySelector('#exemple').classList.remove('blue');
+    document.querySelector('#exemple').classList.remove('red');
+    document.querySelector('#exemple').classList.add('green');
+}
+
+function red(){
+    document.querySelector('#exemple').classList.remove('blue');
+    document.querySelector('#exemple').classList.remove('green');
+    document.querySelector('#exemple').classList.add('red');
+}
+
+function blue(){
+    document.querySelector('#exemple').classList.remove('red');
+    document.querySelector('#exemple').classList.remove('green');
+    document.querySelector('#exemple').classList.add('blue');
+}
