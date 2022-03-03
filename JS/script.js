@@ -104,3 +104,11 @@ function trocar(){
         document.querySelector('button').classList.add('preto');
     }
 }
+
+// Tipos de dados
+
+var nome2 = "Jovimec"; //string
+var idade2 = 90; // number
+var salvo = true; // bullean
+var cidade; //undefined
+
