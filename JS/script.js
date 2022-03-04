@@ -112,3 +112,19 @@ var idade2 = 90; // number
 var salvo = true; // bullean
 var cidade; //undefined
 
+//Funções
+
+function alterar(title){
+    document.getElementById("title").innerHTML = "title";
+    document.getElementById("teste").value = "titulo";
+}
+
+function somar(x, y) {
+    let total = x + y;
+
+    return total;
+}
+
+var resultado = somar(10, 15);
+
+console.log(resultado);
